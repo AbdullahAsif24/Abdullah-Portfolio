@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- Swiper css -->
+    <link rel="stylesheet" href="/assets/swiper-bundle.min.css">
+
+    <!-- AOS Scroll reveal animation css -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link rel="stylesheet" href="style.css">
+    <title>PortFolio</title>
+</head>
+
+<body>
+    <!--===================== header =====================-->
+    <header>
+        <!--===================== Navbar =====================-->
+        <nav class="nav">
+            <ul class="nav-content">
+                <span class="nav-logo">Developer</span>
+
+                <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+                <div class="nav-items display-none">
+                    <li class="nav-list">
+                        <a href="#home" class="link-item active">
+                            <i class='bx bxs-home link-icon'></i>
+                            <span class="link-text">Home</span>
+                        </a>
+                    </li>
+                    <li class="nav-list">
+                        <a href="#about" class="link-item">
+                            <!-- <i class='bx bxs-caret-right-square link-icon'></i> -->
+                            <i class="fa-solid fa-address-card link-icon"></i>
+                            <span class=" link-text">About</span>
+                        </a>
+                    </li>
+                    <li class="nav-list">
+                        <a href="#education" class="link-item">
+                            <i class="fa-solid fa-graduation-cap link-icon"></i>
+                            <span class="link-text">Education</span>
+                        </a>
+                    </li>
+                    <li class="nav-list">
+                        <a href="#skills" class="link-item">
+                            <i class='bx bxs-bar-chart-square link-icon'></i>
+                            <span class="link-text">Skills</span>
+                        </a>
+                    </li>
+                    <li class="nav-list">
+                        <a href="#projects" class="link-item">
+                            <i class='bx bxs-user link-icon'></i>
+                            <span class="link-text">Projects</span>
+                        </a>
+                    </li>
+                    <li class="nav-list">
+                        <a href="#contact" class="link-item">
+                            <i class='bx bxs-message-rounded link-icon'></i>
+                            <!-- <i class='bx bxs-user link-icon'></i> -->
+                            <span class="link-text">Contact</span>
+                        </a>
+                    </li>
+                </div>
+                <i class="fa-solid fa-moon" id="dark-light"></i>
+
+                <span class="indicator"></span>
+            </ul>
+        </nav>
+    </header>
+
+    <!--========================= Main =========================-->
+    <main>
+        <!--========================= Home =========================-->
+        <section class="home" id="home">
+            <div class="home-content" >
+                <h1 class="heading heading3" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">Hello, I am <span class="heading-span2">Abdullah Asif</span>
+                </h1>
+
+                <div class="text-animate" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="500">
+                    <h3 class="typed">Full-Stack Developer</h3>
+                </div>
+                <p data-aos="fade-right" data-aos-duration="1000" data-aos-delay="700">Crafting digital experiences with precision and passion – I am a Full Stack Web Developer dedicated to turning ideas into interactive and seamless online realities.</p>
+
+                <div class="btn-box btn-home" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="900" data-aos-once="true">
+                    <a style="height: auto;" href="#contact" class="btn">Hire Me </a>
+                    <!-- <a href="#" class="btn">Download CV</a> -->
+                </div>
+
+                <div class="home-sci" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1100" data-aos-once="true">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+            </div>
+
+            <div class="home-img" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">
+                <img src="./Images/home-bg.png" alt="Home Image">
+            </div>
+        </section>
+
+        <!--================== About Section ====================-->
+        <section class="about" id="about" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">
+            <h2 class="heading heading3">About <span class="heading-span2">Me</span></h2>
+
+            <div class="about-img">
+                <img src="Images/about-bg-removebg-preview.png" alt="About Image">
+                <span class="circle-spin"></span>
+            </div>
+
+            <div class="about-content">
+                <h3>Full-Stack Developer</h3>
+                <p>Hello there! I'm a Full Stack Web Developer with a knack for turning cool ideas into awesome websites. I love blending creativity with coding magic to make online experiences that are not just functional but also look pretty darn good. Let's build something amazing together and make the web a more awesome place!</p>
+
+                <div class="btn-box btns">
+                    <a href="#contact" class="btn">Contact Me</a>
+                </div>
+            </div>
+        </section>
+
+        <!--========================= Education =========================-->
+        <!-- <section class="education" id="education">
+            <h2 class="heading heading3">My <span class="heading-span2">Journey</span></h2>
+
+            <div class="education-row">
+                <div class="education-column">
+                    <h3 class="title">Education</h3>
+
+                    <div class="education-box">
+                        <div class="education-content">
+                            <div class="content">
+                                <div class="year"><i class="fa-solid fa-calendar-days"></i> 2017 - 2018</div>
+                                <h3>Mastered Degree - Uniersity</h3>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed, dolorem quos fuga,
+                                    veniam velit possimus enim atque ipsam alias officia eum iure quibusdam itaque hic,
+                                    error explicabo! Voluptatibus, laboriosam quaerat.</p>
+                            </div>
+                        </div>
+
+                        <div class="education-content">
+                            <div class="content">
+                                <div class="year"><i class="fa-solid fa-calendar-days"></i> 2017 - 2018</div>
+                                <h3>Mastered Degree - Uniersity</h3>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed, dolorem quos fuga,
+                                    veniam velit possimus enim atque ipsam alias officia eum iure quibusdam itaque hic,
+                                    error explicabo! Voluptatibus, laboriosam quaerat.</p>
+                            </div>
+                        </div>
+
+                        <div class="education-content">
+                            <div class="content">
+                                <div class="year"><i class="fa-solid fa-calendar-days"></i> 2017 - 2018</div>
+                                <h3>Mastered Degree - Uniersity</h3>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed, dolorem quos fuga,
+                                    veniam velit possimus enim atque ipsam alias officia eum iure quibusdam itaque hic,
+                                    error explicabo! Voluptatibus, laboriosam quaerat.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="education-column">
+                    <h3 class="title">Experience</h3>
+
+                    <div class="education-box">
+                        <div class="education-content">
+                            <div class="content">
+                                <div class="year"><i class="fa-solid fa-calendar-days"></i> 2017 - 2018</div>
+                                <h3>Web Developer - Company</h3>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed, dolorem quos fuga,
+                                    veniam velit possimus enim atque ipsam alias officia eum iure quibusdam itaque
+                                    hic,
+                                    error explicabo! Voluptatibus, laboriosam quaerat.</p>
+                            </div>
+                        </div>
+
+                        <div class="education-content">
+                            <div class="content">
+                                <div class="year"><i class="fa-solid fa-calendar-days"></i> 2017 - 2018</div>
+                                <h3>Web Developer - Company</h3>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed, dolorem quos fuga,
+                                    veniam velit possimus enim atque ipsam alias officia eum iure quibusdam itaque
+                                    hic,
+                                    error explicabo! Voluptatibus, laboriosam quaerat.</p>
+                            </div>
+                        </div>
+
+                        <div class="education-content">
+                            <div class="content">
+                                <div class="year"><i class="fa-solid fa-calendar-days"></i> 2017 - 2018</div>
+                                <h3>Web Developer - Company</h3>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed, dolorem quos fuga,
+                                    veniam velit possimus enim atque ipsam alias officia eum iure quibusdam itaque
+                                    hic,
+                                    error explicabo! Voluptatibus, laboriosam quaerat.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+        <!--========================= Skills =========================-->
+        <section class="skills" id="skills">
+            <div class="skills-data" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">
+                <h2 class="heading heading3">My <span class="heading-span2">Skills</span></h2>
+
+                <p class="skills-description">
+                    See fully what skills I have and perform to develop projects for you.
+                </p>
+
+                <div class="btn-box btns">
+                    <a href="#projects" class="btn">See Projects</a>
+                </div>
+            </div>
+
+            <div class="skills-list" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">
+                <p class="skill-name">HTML</p>
+                <p class="skill-name">CSS</p>
+                <p class="skill-name">JavaScript</p>
+                <p class="skill-name">TypeScript</p>
+                <p class="skill-name">React.js</p>
+                <p class="skill-name">React.ts</p>
+                <p class="skill-name">Node.js</p>
+                <p class="skill-name">Express.js</p>
+                <p class="skill-name">MongoDB</p>
+                <p class="skill-name">Firebase</p>
+                <p class="skill-name">Fullstack Development</p>
+                <p class="skill-name">Frontend Development</p>
+                <p class="skill-name">MERN stack Development</p>
+            </div>
+        </section>
+
+        <!-- ========================= Projects =========================
+        <section class="projects" id="projects">
+            <h3 class="section-subtitle heading3">
+                My <span class="heading-span2">Jobs</span>
+            </h3>
+
+            <h2 class="section-title heading heading3">Recent Projects</h2>
+
+            <div class="projects-container container grid">
+                <article class="projects-card">
+                    <img src="/home-bg.png" alt="Projects Image" class="projects-img">
+
+                    <div class="projects-model">
+                        <span class="projects-subtitle">Web</span>
+
+                        <h2 class="projects-title">Modern Website</h2>
+
+                        <a href="#" class="projects-button">
+                            View Demo <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </article>
+
+                <article class="projects-card">
+                    <img src="/favourite theme.png" alt="Projects Image" class="projects-img">
+
+                    <div class="projects-model">
+                        <span class="projects-subtitle">Web</span>
+
+                        <h2 class="projects-title">Modern Website</h2>
+
+                        <a href="#" class="projects-button">
+                            View Demo <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </article>
+
+                <article class="projects-card">
+                    <img src="/favourite theme.png" alt="Projects Image" class="projects-img">
+
+                    <div class="projects-model">
+                        <span class="projects-subtitle">Web</span>
+
+                        <h2 class="projects-title">Modern Website</h2>
+
+                        <a href="#" class="projects-button">
+                            View Demo <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </article>
+
+                <article class="projects-card">
+                    <img src="/favourite theme.png" alt="Projects Image" class="projects-img">
+
+                    <div class="projects-model">
+                        <span class="projects-subtitle">Web</span>
+
+                        <h2 class="projects-title">Modern Website</h2>
+
+                        <a href="#" class="projects-button">
+                            View Demo <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </article>
+
+                <article class="projects-card">
+                    <img src="/favourite theme.png" alt="Projects Image" class="projects-img">
+
+                    <div class="projects-model">
+                        <span class="projects-subtitle">Web</span>
+
+                        <h2 class="projects-title">Modern Website</h2>
+
+                        <a href="#" class="projects-button">
+                            View Demo <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </article>
+
+                <article class="projects-card">
+                    <img src="/favourite theme.png" alt="Projects Image" class="projects-img">
+
+                    <div class="projects-model">
+                        <span class="projects-subtitle">Web</span>
+
+                        <h2 class="projects-title">Modern Website</h2>
+
+                        <a href="#" class="projects-button">
+                            View Demo <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </article>
+            </div>
+        </section> -->
+
+        <!--========================= Projects 222 =========================-->
+        <section class="projects" id="projects" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">
+            <h1 class="heading heading3">My <span class="heading-span2">Projects</span></h1>
+
+            <div class="slide-container swiper">
+                <div class="slide-content">
+                    <div class="card-wrapper swiper-wrapper">
+                        <!-- <div class="card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+
+                                <div class="card-image">
+                                    <img src="images/profile1.jpg" alt="" class="card-img">
+                                </div>
+                            </div>
+
+                            <div class="card-content">
+                                <h2 class="name">David Dell</h2>
+                                <p class="description">The lorem text the section that contains header with having open
+                                    functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+
+                                <button class="button">View More</button>
+                            </div>
+                        </div> -->
+                        <!-- <div class="card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+
+                                <div class="card-image">
+                                    <img src="images/profile2.jpg" alt="" class="card-img">
+                                </div>
+                            </div>
+
+                            <div class="card-content">
+                                <h2 class="name">David Dell</h2>
+                                <p class="description">The lorem text the section that contains header with having open
+                                    functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+
+                                <button class="button">View More</button>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+
+                                <div class="card-image">
+                                    <img src="images/profile3.jpg" alt="" class="card-img">
+                                </div>
+                            </div>
+
+                            <div class="card-content">
+                                <h2 class="name">David Dell</h2>
+                                <p class="description">The lorem text the section that contains header with having open
+                                    functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+
+                                <button class="button">View More</button>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+
+                                <div class="card-image">
+                                    <img src="images/profile4.jpg" alt="" class="card-img">
+                                </div>
+                            </div>
+
+                            <div class="card-content">
+                                <h2 class="name">David Dell</h2>
+                                <p class="description">The lorem text the section that contains header with having open
+                                    functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+
+                                <button class="button">View More</button>
+                            </div>
+                        </div> -->
+
+                        <!-- <article class="projects-card swiper-slide">
+                            <img src="Images/color theme 2.jpg" alt="Projects Image" class="projects-img">
+
+                            <div class="projects-model">
+                                <span class="projects-subtitle">Web</span>
+
+                                <h2 class="projects-title">Modern Website</h2>
+
+                                <a href="#" class="projects-button">
+                                    View Demo <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                </a>
+                            </div>
+                        </article>
+
+                        <article class="projects-card swiper-slide">
+                            <img src="Images/pexels-ben-kirby-11606896.jpg" alt="Projects Image" class="projects-img">
+
+                            <div class="projects-model">
+                                <span class="projects-subtitle">Web</span>
+
+                                <h2 class="projects-title">Modern Website</h2>
+
+                                <a href="#" class="projects-button">
+                                    View Demo <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                </a>
+                            </div>
+                        </article>
+
+                        <article class="projects-card swiper-slide">
+                            <img src="Images/pexels-daniel-absi-952670.jpg" alt="Projects Image" class="projects-img">
+
+                            <div class="projects-model">
+                                <span class="projects-subtitle">Web</span>
+
+                                <h2 class="projects-title">Modern Website</h2>
+
+                                <a href="#" class="projects-button">
+                                    View Demo <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                </a>
+                            </div>
+                        </article> -->
+
+                        <article class="projects-card swiper-slide">
+                            <img src="Images/project-password_manager_1_5252x5244.jpg" alt="Projects Image"
+                                class="projects-img">
+
+                            <div class="projects-model">
+                                <span class="projects-subtitle">Web</span>
+
+                                <h2 class="projects-title">Password Manager</h2>
+
+                                <a target="_blank" href="https://abdullah-github-copilot.github.io/PassWord-Manager/index.html" class="projects-button">
+                                    View Demo <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                </a>
+                            </div>
+                        </article>
+
+                        <article class="projects-card swiper-slide">
+                            <img src="Images/project-headPhone.jpg" alt="Projects Image" class="projects-img">
+
+                            <div class="projects-model">
+                                <span class="projects-subtitle">Web</span>
+
+                                <h2 class="projects-title">Head Phone</h2>
+
+                                <a target="_blank" href="https://abdullah-github-copilot.github.io/HeadPhone-LandingPage/" class="projects-button">
+                                    View Demo <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                </a>
+                            </div>
+                        </article>
+
+                        <article class="projects-card swiper-slide">
+                            <img src="Images/project-tic_tac_toe" alt="Projects Image" class="projects-img">
+
+                            <div class="projects-model">
+                                <span class="projects-subtitle">Web</span>
+
+                                <h2 class="projects-title">Tic Tac Toe Game</h2>
+
+                                <a target="_blank" href="https://abdullah-github-copilot.github.io/Tic-Tac-Toe_Game/" class="projects-button">
+                                    View Demo <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                </a>
+                            </div>
+                        </article>
+
+                        <article class="projects-card swiper-slide">
+                            <img src="Images/project-textUtills.jpg" alt="Projects Image" class="projects-img">
+
+                            <div class="projects-model">
+                                <span class="projects-subtitle">Web</span>
+
+                                <h2 class="projects-title">Text Utills</h2>
+
+                                <a target="_blank" href="https://psjcmv-3000.csb.app/" class="projects-button">
+                                    View Demo <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                </a>
+                            </div>
+                        </article>
+
+                        <!-- <article class="projects-card swiper-slide">
+                            <img src="Images/project-newsMonkey.jpg" alt="Projects Image" class="projects-img">
+
+                            <div class="projects-model">
+                                <span class="projects-subtitle">Web</span>
+
+                                <h2 class="projects-title">News Monkey</h2>
+
+                                <a target="_blank" href="https://yll6y3-3000.csb.app/" class="projects-button">
+                                    View Demo <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                </a>
+                            </div>
+                        </article> -->
+
+                        <article class="projects-card swiper-slide">
+                            <img src="Images/project-snake game.png" alt="Projects Image" class="projects-img">
+
+                            <div class="projects-model">
+                                <span class="projects-subtitle">Web</span>
+
+                                <h2 class="projects-title">Snake Game</h2>
+
+                                <a target="_blank" href="https://abdullah-github-copilot.github.io/Snake-Game/" class="projects-button">
+                                    View Demo <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                </a>
+                            </div>
+                        </article>
+
+                        <article class="projects-card swiper-slide">
+                            <img src="Images/projct-PDFMerger.png" alt="Projects Image" class="projects-img">
+
+                            <div class="projects-model">
+                                <span class="projects-subtitle">Web</span>
+
+                                <h2 class="projects-title">PDF Merger</h2>
+
+                                <a target="_blank" href="https://pdf-merger.abdullaha30.repl.co/" class="projects-button">
+                                    View Demo <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                </a>
+                            </div>
+                        </article>
+
+                        <article class="projects-card swiper-slide">
+                            <img src="Images/project-airHockey.jpg" alt="Projects Image" class="projects-img">
+
+                            <div class="projects-model">
+                                <span class="projects-subtitle">Web</span>
+
+                                <h2 class="projects-title">Air Hockey Game</h2>
+
+                                <a target="_blank" href="https://abdullah-github-copilot.github.io/Air-Hockey-Game/" class="projects-button">
+                                    View Demo <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                </a>
+                            </div>
+                        </article>
+
+                        <article class="projects-card swiper-slide">
+                            <img src="Images/project-memory card game.png" alt="Projects Image" class="projects-img">
+
+                            <div class="projects-model">
+                                <span class="projects-subtitle">Web</span>
+
+                                <h2 class="projects-title">Memory Card Game</h2>
+
+                                <a target="_blank" href="https://abdullah-github-copilot.github.io/Memory-Card_Game" class="projects-button">
+                                    View Demo <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                </a>
+                            </div>
+                        </article>
+
+                        <article class="projects-card swiper-slide">
+                            <img src="Images/project-rock paper scissor.jpg" alt="Projects Image" class="projects-img">
+
+                            <div class="projects-model">
+                                <span class="projects-subtitle">Web</span>
+
+                                <h2 class="projects-title">Rock Paper Scissor Game</h2>
+
+                                <a target="_blank" href="https://abdullah-github-copilot.github.io/Rock-Paper-Scissor/" class="projects-button">
+                                    View Demo <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                </a>
+                            </div>
+                        </article>
+
+                        <article class="projects-card swiper-slide">
+                            <img src="Images/project-watches-website.png" alt="Projects Image" class="projects-img">
+
+                            <div class="projects-model">
+                                <span class="projects-subtitle">Web</span>
+
+                                <h2 class="projects-title">Watches Landing Page</h2>
+
+                                <a target="_blank" href="https://abdullah-github-copilot.github.io/Watches-landing-page/" class="projects-button">
+                                    View Demo <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                </a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+                <div class="swiper-button-next swiper-navBtn"></div>
+                <div class="swiper-button-prev swiper-navBtn"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+        <!--========================= Contact =========================-->
+        <section class="contact" id="contact">
+            <h2 class="heading heading3" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">Contact <span class="heading-span2">Me!</span></h2>
+
+            <form action="#" id="contact-form">
+                <div class="input-box">
+                    <div class="input-field" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">
+                        <input type="text" name="user_name" placeholder="Full Name" required>
+                        <span class="focus"></span>
+                    </div>
+
+                    <div class="input-field" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">
+                        <input type="email" name="user_email" placeholder="Email Address" required>
+
+                        <span class="focus"></span>
+                    </div>
+                </div>
+
+                <div class="input-box">
+                    <div class="input-field" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">
+                        <input type="number" name="user_number" placeholder="Mobile Number" required>
+                        <span class="focus"></span>
+                    </div>
+
+                    <div class="input-field" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">
+                        <input type="text" name="user_emailSubject" placeholder="Email Subject" required>
+                        <span class="focus"></span>
+                    </div>
+                </div>
+
+                <div class="textarea-field" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">
+                    <textarea name="user_message" id="" cols="30" rows="10" placeholder="Your Message"
+                        required></textarea>
+                    <span class="focus"></span>
+                </div>
+
+                <div class="contact-sent">
+                    <p id="contact-sent-message"></p>
+                </div>
+
+                <div class="btn-box btns btn-contact" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300" data-aos-once="true">
+                    <button type="submit" class="btn">Submit</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <!--========================= Footer =========================-->
+    <footer data-aos="fade-down" data-aos-duration="1000" data-aos-delay="300">
+        <div class="footer-container">
+            <div class="footer-content">
+                <h1 class="footer-title">Abullah Asif</h1>
+
+                <h2 class="footer-education">
+                    Full-Stack Developer
+                </h2>
+            </div>
+
+            <div class="footer-social home-sci">
+                <a href="#" target="_blank" class="footer-social-link">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+
+                <a href="#" target="_blank" class="footer-social-link">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+
+                <a href="#" target="_blank" class="footer-social-link">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+            </div>
+
+            <span class="footer-copy">
+                Let's code dreams into reality. Connect with me and let the digital adventures begin!
+            </span>
+
+            <div class="btn-box btns btn-footer">
+                <a href="#home" class="btn"><i class="fa-solid fa-arrow-up"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    fossil
+
+Gen 5
+
+$359.00
+
+    <!-- Box icons -->
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/f7f960d2f1.js" crossorigin="anonymous"></script>
+
+    <!-- Swiper js -->
+    <script src="/assets/swiper-bundle.min.js"></script>
+
+    <!-- Email js -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+    <!-- AOS Scroll reveal Animation js -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({});
+    </script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
