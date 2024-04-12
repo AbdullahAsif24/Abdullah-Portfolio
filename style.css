@@ -477,7 +477,12 @@ section {
     transition: .5s;
 }
 
-.home-sci a:hover {
+.home-sci a svg:hover{
+    color: var(--bg-color);
+    transform: .5s;
+}
+
+.home-sci a:hover{
     color: var(--bg-color);
 }
 
