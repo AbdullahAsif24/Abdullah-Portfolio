@@ -322,6 +322,7 @@ section {
     align-items: center;
     padding: 0 9%;
     height: 100vh;
+    padding-bottom: 4rem;
 }
 
 .home-img img {
@@ -833,7 +834,7 @@ section {
     }
 
     .footer-container {
-        margin-block: 4.5rem 4rem;
+        padding-block: 4.5rem 4rem;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         align-items: center;
@@ -852,7 +853,7 @@ section {
     }
 
     .footer-container {
-        margin-block: 4.5rem 4rem;
+        padding: 4.5rem 4rem;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         align-items: center;
@@ -942,8 +943,9 @@ section {
 
 /*================ Footer ============*/
 .footer {
-    background-color: var(--bg-color2);
+    /* background-color: var(--bg-color2); */
     padding-block: 3.5rem 2rem;
+
 }
 
 .footer-container {

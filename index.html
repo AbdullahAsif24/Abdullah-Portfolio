@@ -17,6 +17,21 @@
     <!-- AOS Scroll reveal animation css -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
+
+    <!-- tailwind css -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+
     <link rel="stylesheet" href="style.css">
     <title>Abdullah</title>
 </head>
@@ -71,7 +86,6 @@
                         </a>
                     </li>
                 </div>
-                <i class="fa-solid fa-moon" id="dark-light"></i>
 
                 <span class="indicator"></span>
             </ul>
@@ -81,7 +95,7 @@
     <!--========================= Main =========================-->
     <main>
         <!--========================= Home =========================-->
-        <section class="home" id="home">
+        <section class="home bg-gray-100" id="home">
             <div class="home-content">
                 <h1 class="heading heading3" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">Hello,
                     I am <span class="heading-span2">Abdullah Asif</span>
@@ -226,7 +240,7 @@
         </section> -->
 
         <!--========================= Skills =========================-->
-        <section class="skills" id="skills">
+        <section class="skills bg-gray-100" id="skills">
             <div class="skills-data" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">
                 <h2 class="heading heading3">My <span class="heading-span2">Skills</span></h2>
 
@@ -750,6 +764,27 @@
             </div>
         </section>
 
+        <!--========================= Testimonials =========================-->
+        <section class="py-10 bg-gray-100">
+            <div class="container mx-auto text-center">
+                <h2 class="text-2xl font-bold mb-6">What Clients Say</h2>
+                <div class="grid gap-8 md:grid-cols-2">
+                    <div class="bg-white p-6 shadow rounded">
+                        <p class="italic">"Abdullah did an amazing job creating my website. It’s clean, responsive, and
+                            perfectly captures my business!"</p>
+                        <h4 class="mt-4 font-bold">Oliver</h4>
+                        <p class="text-sm text-gray-600">Resturant Owner</p>
+                    </div>
+                    <div class="bg-white p-6 shadow rounded">
+                        <p class="italic">"I loved working with Abdullah! He built a beautiful portfolio for me, and the
+                            process was so smooth."</p>
+                        <h4 class="mt-4 font-bold">Ezra</h4>
+                        <p class="text-sm text-gray-600">Blogger</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <!--========================= Contact =========================-->
         <section class="contact" id="contact">
             <h2 class="heading heading3" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">Contact
@@ -798,10 +833,11 @@
                 </div>
             </form>
         </section>
+
     </main>
 
     <!--========================= Footer =========================-->
-    <footer data-aos="fade-down" data-aos-duration="1000" data-aos-delay="300">
+    <footer class="bg-gray-100" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="300">
         <div class="footer-container">
             <div class="footer-content">
                 <h1 class="footer-title">Abullah Asif</h1>
@@ -860,7 +896,9 @@
     <!-- AOS Scroll reveal Animation js -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-        AOS.init({});
+        AOS.init({
+            once: true
+        });
     </script>
 
     <script src="script.js"></script>

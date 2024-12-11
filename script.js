@@ -82,27 +82,27 @@ window.onscroll = () => {
     menuIcon.classList.remove("fa-x")
 }
 
-// Navbar dark or light theme
-let darkLight = document.getElementById("dark-light");
-let navbar = document.querySelector("nav")
+//==================== Navbar dark or light theme
+// let darkLight = document.getElementById("dark-light");
+// let navbar = document.querySelector("nav")
 
-darkLight.addEventListener("click", () => {
-    if (darkLight.classList.contains("fa-sun")) {
-        darkLight.classList.add("fa-moon");
-        darkLight.classList.remove("fa-sun");
+// darkLight.addEventListener("click", () => {
+//     if (darkLight.classList.contains("fa-sun")) {
+//         darkLight.classList.add("fa-moon");
+//         darkLight.classList.remove("fa-sun");
 
-        document.documentElement.style.setProperty('--bg-color', '#FFFFFF');
+//         document.documentElement.style.setProperty('--bg-color', '#FFFFFF');
 
-        navbar.style.boxShadow = '0 5px 15px rgba(0, 0, 0, 0.1)'
-    } else {
-        darkLight.classList.add("fa-sun");
-        darkLight.classList.remove("fa-moon");
+//         navbar.style.boxShadow = '0 5px 15px rgba(0, 0, 0, 0.1)'
+//     } else {
+//         darkLight.classList.add("fa-sun");
+//         darkLight.classList.remove("fa-moon");
 
-        document.documentElement.style.setProperty('--bg-color', 'black');
+//         document.documentElement.style.setProperty('--bg-color', 'black');
 
-        navbar.style.boxShadow = '0 5px 15px rgba(240, 240, 255, 0.1)'
-    }
-});
+//         navbar.style.boxShadow = '0 5px 15px rgba(240, 240, 255, 0.1)'
+//     }
+// });
 
 //**************** projects ********************//
 var swiper = new Swiper(".slide-content", {
